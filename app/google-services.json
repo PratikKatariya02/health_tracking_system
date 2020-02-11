@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "973783325751",
+    "firebase_url": "https://health-tracking-system.firebaseio.com",
+    "project_id": "health-tracking-system",
+    "storage_bucket": "health-tracking-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973783325751:android:40476b2b0bc74662cef3b2",
+        "android_client_info": {
+          "package_name": "com.pratik.healthtrackingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973783325751-i947fpsp9tak57qknm0020l9bq8s5daf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pratik.healthtrackingsystem",
+            "certificate_hash": "b8df4b9fd0558b88c3d2f64778d4dfe267c746e4"
+          }
+        },
+        {
+          "client_id": "973783325751-85earelb024trij6forv4n86drin4dg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZX08ryyXG6rbn3QzSBlHegbrOu1qM-n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973783325751-85earelb024trij6forv4n86drin4dg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

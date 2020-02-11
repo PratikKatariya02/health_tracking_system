@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Health Tracking System</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verify">Verify</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="get_code">Get Code</string>
+</resources>
