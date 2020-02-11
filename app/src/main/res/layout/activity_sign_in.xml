@@ -26,6 +26,26 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/hospital" />
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="64dp"
+            android:defaultFocusHighlightEnabled="true"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/vericode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:hint="@string/verification_code"
+            android:inputType="number" />
+
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
@@ -55,26 +75,6 @@
                 app:cornerRadius="16dp" />
 
         </LinearLayout>
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/vericode"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:ems="10"
-            android:hint="@string/verification_code"
-            android:inputType="number" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editPhoneNumber"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_marginTop="64dp"
-            android:defaultFocusHighlightEnabled="true"
-            android:ems="10"
-            android:hint="@string/phone_number"
-            android:inputType="phone" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

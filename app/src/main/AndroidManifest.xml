@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Priscriptionadd"></activity>
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Priscriptionadd" />
         <activity android:name=".patientdashboard" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".SignUpActivity" />

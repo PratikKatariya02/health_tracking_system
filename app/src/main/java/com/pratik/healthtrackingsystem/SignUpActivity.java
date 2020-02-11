@@ -149,7 +149,7 @@ public class SignUpActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             //verification successful we will start the profile activity
                             setDocument();
-                            Intent intent = new Intent(SignUpActivity.this, patientdashboard.class);
+                            Intent intent = new Intent(SignUpActivity.this, DashBoardActivity.class);
                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
 
