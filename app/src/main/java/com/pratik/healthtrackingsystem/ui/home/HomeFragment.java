@@ -1,9 +1,11 @@
 package com.pratik.healthtrackingsystem.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,6 +15,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.pratik.healthtrackingsystem.R;
+import com.pratik.healthtrackingsystem.ui.gallery.GalleryFragment;
 
 public class HomeFragment extends Fragment {
 
@@ -28,6 +31,15 @@ public class HomeFragment extends Fragment {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
+            }
+        });
+
+        Button button = root.findViewById(R.id.buttonviewAppointment);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getContext(), GalleryFragment.class);
+                startActivity(i);
             }
         });
         return root;
